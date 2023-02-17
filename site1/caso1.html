@@ -51,6 +51,9 @@
       );
       ac("init", "c8bb9493-2b8c-415a-b7b1-44cef16960f8", { region: "use1" });
       ac("pageview");
+      ac("dom", "ready", () => {
+        console.log("The journey SDK is ready!");
+      });
     </script>
     <script>
       $(function () {
