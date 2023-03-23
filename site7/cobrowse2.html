@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cobrowse</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700,300,400"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/otros.js"></script>
+
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <!-- Div with this id required to display security key form -->
+    <div id="cobrowse-security-form"></div>
+
+    <!-- Co-browse with voice uses the webchat API, so include it here -->
+    <script src="https://apps.mypurecloud.com/webchat/jsapi-v1.js" type="text/javascript"></script>
+
+    <!-- For co-browse with voice, you must load the co-browse API. Co-browse with web chat loads the co-browse API for you. -->
+    <script
+      src="https://cobrowse.mypurecloud.com/cobrowse-jsapi-v1.js?deploymentKey=g6VVHnWCx2jPe0Vl4pzwollWXiJqnHoI"
+      type="text/javascript"
+    ></script>
+
+    <script src="js/cobrowse.js" ype="text/javascript"></script>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <div class="row"></div>
+          <div class="row">
+            <img src="img/Palm-Beach-In-Australia3.webp" class="img-thumbnail" />
+          </div>
+          <div class="row"></div>
+        </div>
+
+        <!--   --------------------------------------     -->
+        <div class="col-md-11">
+          <div class="row well well-lg'">
+            <table class="table">
+              <tr>
+                <th class="col">Item</th>
+                <th class="col">Saldo Actual</th>
+              </tr>
+              <tr scope="row">
+                <td>Cuenta 1</td>
+                <td class="cobrowse-masked">$1.555.998,00</td>
+              </tr>
+              <tr scope="row">
+                <td>Cuenta 2</td>
+                <td class="privado">$65.5995,00</td>
+              </tr>
+            </table>
+
+            <div class="col-sm-5 col-xs-5 col-xs-offset-1 col-sm-offset-0">
+              <select name="select1" id="select1">
+                <option value="opc1">Opcion 1</option>
+                <option value="opc2">Opcion 2</option>
+                <option value="opc3">Opcion 3</option>
+                <option value="opc4">Opcion 4</option>
+              </select>
+            </div>
+          </div>
+          <!---->
+
+          <div class="row well well-lg'">
+            <div class="col-sm-5 col-xs-5 col-xs-offset-1 col-sm-offset-0">
+              <div class="div1">
+                <a href="cobrowse.html">Pagina 1</a>
+              </div>
+            </div>
+            <div class="col-sm-5 col-xs-5 col-xs-offset-1 col-sm-offset-0"></div>
+          </div>
+          <div class="row well well-lg'"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>
