@@ -1,12 +1,11 @@
 {
-  "cuits":
-  [
+  "cuits": [
     {
-      "id" : "123456789",
-      "SituationStatus" : "Approved",
-      "email" : "yyyy@test.net",
-      "nombre" : "Juan",
-      "apellido" : "garcia"
+      "id": 1,
+      "title": "hello"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
