@@ -1,9 +1,12 @@
-[
-  {
-    "id" : "123456789",
-    "SituationStatus" : "Approved",
-    "email" : "yyyy@test.net",
-    "nombre" : "Juan",
-    "apellido" : "garcia"
-  }
-]
+{
+  "cuits":
+  [
+    {
+      "id" : "123456789",
+      "SituationStatus" : "Approved",
+      "email" : "yyyy@test.net",
+      "nombre" : "Juan",
+      "apellido" : "garcia"
+    }
+  ]
+}
