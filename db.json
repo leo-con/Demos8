@@ -1,0 +1,9 @@
+[
+  {
+    "id" : "123456789",
+    "SituationStatus" : "Approved",
+    "email" : "yyyy@test.net",
+    "nombre" : "Juan",
+    "apellido" : "garcia"
+  }
+]
