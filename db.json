@@ -5,14 +5,16 @@
       "SituationStatus" : "Approved",
       "email" : "yyyy@test.net",
       "nombre" : "Juan",
-      "apellido" : "garcia"
+      "apellido" : "garcia",
+      "telefono" : "5557777"
     },
     {
       "id" : "12345678902",
       "SituationStatus" : "*****",
       "email" : "yyyy@test.net",
       "nombre" : "Juan",
-      "apellido" : "garcia"
+      "apellido" : "garcia",
+      "telefono" : "5557777"
     }
   ],
   "profile": {
